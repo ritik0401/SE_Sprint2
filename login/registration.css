@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('homepageBG.jpg') no-repeat center center fixed;
+    background-size: cover;
+    text-align: left;
+
+
+}
+
+.registration-container {
+    background: rgba(255, 255, 255, 0.9); 
+    margin: auto;
+    padding: 20px;
+    width: 400px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-top: 100px;
+}
+
+.form-group label, .form-group input, .form-group select {
+    text-align: left;
+    display: block;
+    width: calc(100% - 20px); 
+    margin: 10px auto; 
+}
+
+label {
+    text-align: left;
+    margin-bottom: 5px;
+    width: 30%;
+}
+
+input[type=text], input[type=password], input[type=email], select[id=accountType] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 90%;
+}
+
+input[type=submit] {
+    width: 100%;
+	margin-top:20px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+#errorContainer p {
+    color: red;
+    text-align: left;
+    margin-left: 10%;
+    margin-right: 10%;
+}
